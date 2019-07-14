@@ -172,14 +172,6 @@ function draw(){
 
     }
 
-
-
-
-
-
-
-
-
 }
 
 //call draw function every 200ms
