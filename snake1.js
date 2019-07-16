@@ -25,6 +25,10 @@ foodImg2.src = "ladybug.svg";
 foodImg2.width=32;
 foodImg2.height=32;
 
+let music=new Audio();
+music.src="Main_Teri_Dush.mp3";
+music.play();
+
 //create the snake
 //it is an array of objects
 var snake = [];
