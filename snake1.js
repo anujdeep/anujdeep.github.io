@@ -90,12 +90,12 @@ function draw(){
         ctx.strokeRect(snake[i].x,snake[i].y,box,box);
     }
     if(food.x % 3 ==0)
-    ctx.drawImage(foodImg, food.x ,food.y);
+    ctx.drawImage(foodImg, food.x ,food.y,box,box);
     else if (food.x % 3 ==1) {
-      ctx.drawImage(foodImg1, food.x ,food.y);
+      ctx.drawImage(foodImg1, food.x ,food.y,box,box);
     }
     else {
-      ctx.drawImage(foodImg2, food.x ,food.y);
+      ctx.drawImage(foodImg2, food.x ,food.y,box,box);
     }
 
     //old head position
